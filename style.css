@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+   background-position: -6% 1040%, 98% -1180%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Kumbh Sans',sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.name p {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+span {
+    opacity: 0.7;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+h3, h1 {
+    opacity: 0.9;
+}
+p {
+    opacity: 0.5;
+    
+}
+.avatar img {
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+img {
+    border-radius: 15px 15px 0 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    position: relative;
+}
+
+.content {
+    background-color: white;
+    width: 350px;
+    height: 255px;
+    position: absolute;
+    top: 51%;
+    z-index: -1;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19),0 6px 20px rgba(0, 0, 0, 0.23);
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+hr {
+    position: relative;
+    top: 45%;
+    border-top: gray;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 140px;
+    font-size: 15px;
+} 
+.row p {
+    letter-spacing: 1px;
+    margin-top: 8px;
+    font-size: 10px;
+}
+.cover .avatar {
+    position: relative;
+    left: 33%;
+    bottom: 23%;
+}
+
+.link {
+    text-align: center;
+}
+
+@media (max-width:600px)  {
+    body {
+        background-position: 165% ​-491px, -37% 330px;
+    }
+}
