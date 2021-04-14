@@ -73,7 +73,7 @@ main {
 hr {
     position: relative;
     top: 45%;
-    border-top: gray;
+    border-top: rgb(201, 201, 201);
 }
 
 .row {
