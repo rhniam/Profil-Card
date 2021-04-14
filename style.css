@@ -7,7 +7,7 @@
 body {
     background-color: hsl(185, 75%, 39%);
     background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
-   background-position: -6% 1040%, 98% -1180%;
+    background-position: bottom 40vh right 48vw, top 50vh left 48vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Kumbh Sans',sans-serif;
